@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name = "defaultLightPrimary">#005ac1</color>
+    <color name = "defaultLightOnPrimary">#FFFFFF</color>
+    <color name = "defaultLightPrimaryContainer">#d8e2ff</color>
+    <color name = "defaultLightOnPrimaryContainer">#001a41</color>
+    <color name = "defaultLightInversePrimary">#adc6ff</color>
+    <color name = "defaultLightSecondary">#535e78</color>
+    <color name = "defaultLightOnSecondary">#FFFFFF</color>
+    <color name = "defaultLightSecondaryContainer">#d8e2ff</color>
+    <color name = "defaultLightOnSecondaryContainer">#0f1b32</color>
+    <color name = "defaultLightTertiary">#76517b</color>
+    <color name = "defaultLightOnTertiary">#ffffff</color>
+    <color name = "defaultLightTertiaryContainer">#fed6ff</color>
+    <color name = "defaultLightOnTertiaryContainer">#2d0e34</color>
+    <color name = "defaultLightBackground">#fefbff</color>
+    <color name = "defaultLightOnBackground">#1b1b1f</color>
+    <color name = "defaultLightSurface">@color/defaultLightBackground</color>
+    <color name = "defaultLightOnSurface">@color/defaultLightOnBackground</color>
+    <color name = "defaultLightSurfaceVariant">#e1e2ec</color>
+    <color name = "defaultLightOnSurfaceVariant">#44474f</color>
+    <color name = "defaultLightSurfaceTint">@color/defaultLightPrimary</color>
+    <color name = "defaultLightInverseSurface">#303033</color>
+    <color name = "defaultLightInverseOnSurface">#f2f0f4</color>
+    <color name = "defaultLightError">#ba1a1a</color>
+    <color name = "defaultLightOnError">#FFFFFF</color>
+    <color name = "defaultLightErrorContainer">#FFDAD6</color>
+    <color name = "defaultLightOnErrorContainer">#410002</color>
+    <color name = "defaultLightOutline">#74777f</color>
+    <color name = "defaultLightOutlineVariant">#c4c6d0</color>
+
+
+    <color name = "defaultDarkPrimary">@color/defaultLightInversePrimary</color>
+    <color name = "defaultDarkOnPrimary">#002e69</color>
+    <color name = "defaultDarkPrimaryContainer">#004494</color>
+    <color name = "defaultDarkOnPrimaryContainer">@color/defaultLightPrimaryContainer</color>
+    <color name = "defaultDarkInversePrimary">@color/defaultLightPrimary</color>
+    <color name = "defaultDarkSecondary">#bbc6e4</color>
+    <color name = "defaultDarkOnSecondary">#253048</color>
+    <color name = "defaultDarkSecondaryContainer">#3b475f</color>
+    <color name = "defaultDarkOnSecondaryContainer">@color/defaultLightSecondaryContainer</color>
+    <color name = "defaultDarkTertiary">#e5b8e8</color>
+    <color name = "defaultDarkOnTertiary">#44244a</color>
+    <color name = "defaultDarkTertiaryContainer">#5d3a62</color>
+    <color name = "defaultDarkOnTertiaryContainer">@color/defaultLightTertiaryContainer</color>
+    <color name = "defaultDarkBackground">#1b1b1f</color>
+    <color name = "defaultDarkOnBackground">#e3e2e6</color>
+    <color name = "defaultDarkSurface">@color/defaultDarkBackground</color>
+    <color name = "defaultDarkOnSurface">@color/defaultDarkOnBackground</color>
+    <color name = "defaultDarkSurfaceVariant">#44474f</color>
+    <color name = "defaultDarkOnSurfaceVariant">#c4c6d0</color>
+    <color name = "defaultDarkSurfaceTint">@color/defaultDarkPrimary</color>
+    <color name = "defaultDarkInverseSurface">#e3e2e6</color>
+    <color name = "defaultDarkInverseOnSurface">#303033</color>
+    <color name = "defaultDarkError">#f2b8b5</color>
+    <color name = "defaultDarkOnError">#601410</color>
+    <color name = "defaultDarkErrorContainer">#7D2B22</color>
+    <color name = "defaultDarkOnErrorContainer">@color/defaultLightErrorContainer</color>
+    <color name = "defaultDarkOutline">#8e9099</color>
+    <color name = "defaultDarkOutlineVariant">#44474f</color>
+
+
+
+</resources>
