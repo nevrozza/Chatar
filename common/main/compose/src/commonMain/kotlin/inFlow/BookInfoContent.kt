@@ -71,8 +71,8 @@ fun BookInfoContent(
             Text(
                 model.title,
                 modifier = Modifier.padding(horizontal = 15.dp),
-                fontWeight = FontWeight.Black,
-                fontSize = 27.sp,
+                fontWeight = FontWeight.Bold,
+                fontSize = 28.sp,
                 textAlign = TextAlign.Center
             )
             Spacer(Modifier.size(2.dp))

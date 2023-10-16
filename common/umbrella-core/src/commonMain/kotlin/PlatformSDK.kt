@@ -21,6 +21,7 @@ object PlatformSDK {
                 importAll(
                     umbrellaModule,
                     coreModule,
+                    chatModule,
                     settingsModule
                 )
             }.direct

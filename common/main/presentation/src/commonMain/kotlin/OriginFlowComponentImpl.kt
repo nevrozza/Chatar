@@ -8,6 +8,7 @@ import com.arkivanov.decompose.router.stack.push
 import com.arkivanov.decompose.value.Value
 import com.arkivanov.essenty.parcelable.Parcelable
 import com.arkivanov.essenty.parcelable.Parcelize
+import components.ChatComponent
 import components.OriginFlowComponent
 import components.OriginFlowComponent.Child.BookInfoChild
 import components.OriginFlowComponent.Child.ChatChild
@@ -76,7 +77,11 @@ class OriginFlowComponentImpl(
 
             is Config.Chat -> ChatChild(
                 ChatComponentImpl(
-                    componentContext
+                    componentContext,
+                    ChatComponent.Model(
+                        title = config.titlePrev,
+                        dbName = config.dbName
+                    )
                 ) {
                     navigation.pop()
                 }

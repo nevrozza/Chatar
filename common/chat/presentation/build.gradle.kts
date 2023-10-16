@@ -9,7 +9,6 @@ kotlin {
         commonMain {
             dependencies {
                 implementation(project(":common:core"))
-
                 api(project(":common:chat:api"))
 //                api(project(":common:settings:api"))
                 implementation(project(":common:utils"))

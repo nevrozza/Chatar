@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS ozhegov (
+	word TEXT,
+	description	TEXT
+);
+
+getDescription:
+SELECT description FROM ozhegov WHERE word == ?;
+
+getAllWords:
+SELECT word FROM ozhegov;

@@ -12,6 +12,7 @@ kotlin {
                 //implementation(project(":common:main:api"))
                 implementation(project(":common:main:presentation"))
                 implementation(project(":common:settings:data"))
+                implementation(project(":common:chat:data"))
                 implementation(Dependencies.Decompose.decompose)
 
                 implementation(Dependencies.Kodein.core)
